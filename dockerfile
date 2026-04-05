@@ -41,7 +41,7 @@ RUN playwright install chromium
 COPY . .
 
 
-EXPOSE 7777
+EXPOSE 7860
 
 
 CMD ["python", "main.py"]
